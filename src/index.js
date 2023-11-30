@@ -4,7 +4,13 @@ import  ReactDOM  from 'react-dom/client';  //it allowed to share data on the br
 
 
 function Greetings () {
-    return <h2>My first component</h2>
+    return (
+        <section>
+    <h2>My first component</h2>
+    <h1>My component</h1>
+    <h6>My firs</h6>
+    </section>
+    )
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<Greetings></Greetings>)
